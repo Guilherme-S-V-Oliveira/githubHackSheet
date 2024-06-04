@@ -1,13 +1,22 @@
 # Lecture Command Listing - Working Locally, Part One
 - pwd
+- ls
+- ls -a
+- clear
+- cd NomeDaPasta
+- cd ..
 - git config --global user.name "Nome"
 - git config --global user.email "email@dominio.com"
 - git status
-- mate README.md
-- git add README.md
+- git log
+- git rm arquivo.extensao
+- mate arquivo.extensao
+- mate .gitignore
+- git add arquivo.extensao
 - git commit -m "Commit text"
-- clear
 - git commit -am "Commit text"
 - git add .
-- git reset HEAD README.md
-- git checkout -- README.md
+- git reset HEAD arquivo.extensao
+- git checkout -- arquivo.extensao
+- mkdir NomeDaPasta
+- git mv arquivo.extensao NomeDaPastaDestino
