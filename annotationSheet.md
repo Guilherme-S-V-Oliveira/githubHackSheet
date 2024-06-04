@@ -11,7 +11,6 @@
 - git log
 - git rm arquivo.extensao
 - mate arquivo.extensao
-- mate .gitignore
 - git add arquivo.extensao
 - git commit -m "Commit text"
 - git commit -am "Commit text"
@@ -20,3 +19,8 @@
 - git checkout -- arquivo.extensao
 - mkdir NomeDaPasta
 - git mv arquivo.extensao NomeDaPastaDestino
+- ssh-keygen -t rsa -C "email@dominio.com"
+- ssh -T git@github.com
+-mate id_rsa.pub
+- mate .gitignore
+- mkdir .ssh
