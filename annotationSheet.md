@@ -1,0 +1,14 @@
+# Lecture Command Listing - Working Locally, Part One
+- pwd
+- git status
+- mate README.md
+- git add README.md
+- git commit -m "Commit text"
+- clear
+- git commit -am "Commit text"
+- mate index.html
+- git add index.html
+- mate index.html
+- git add .
+- git reset HEAD README.md
+- git checkout -- README.md
